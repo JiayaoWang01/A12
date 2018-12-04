@@ -14,9 +14,9 @@ int main(void)
 		if ((PIND & 0x08) == 0)
 		{
 			PORTB = 0x02;
-			_delay_ms(100);
+			_delay_ms(1000);
 			PORTB = 0x00;
-			_delay_ms(100);
+			_delay_ms(1000);
 		}
 		else
 		{
